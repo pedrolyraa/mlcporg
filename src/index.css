@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-mlcp-white text-mlcp-black font-sans antialiased;
+  }
+}
+
+/* 
+  Microinteração Magnética & Sweep:
+  Um estilo global utilitário para botões modernos inspirado
+  por designs de alto impacto visual e alta fluidez interativa.
+*/
+.hover-sweep {
+  @apply relative overflow-hidden z-10;
+}
+
+.hover-sweep::before {
+  content: '';
+  @apply absolute top-0 left-0 w-full h-full bg-current transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] -z-10 origin-left scale-x-0;
+}
+
+.hover-sweep:hover::before {
+  @apply scale-x-100 origin-left;
+}
+
+.hover-sweep-reverse {
+  @apply relative overflow-hidden z-10;
+}
+
+.hover-sweep-reverse::before {
+  content: '';
+  @apply absolute top-0 left-0 w-full h-full bg-current transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] -z-10 origin-right scale-x-0;
+}
+
+.hover-sweep-reverse:hover::before {
+  @apply scale-x-100 origin-right;
+}
+
+/* Hover cards moderno com glow */
+.card-hover-pro {
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card-hover-pro:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -10px rgba(198, 40, 40, 0.15);
+  border-color: rgba(198, 40, 40, 0.2);
+}
+
+/* 
+  Efeito de revelação de imagem moderna 
+  (A imagem cresce sutilmente dentro do container restrito)
+*/
+.img-hover-reveal {
+  @apply transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)];
+}
+.group:hover .img-hover-reveal {
+  @apply scale-110;
+}
+
+/* 
+  Animação CSS Nativa para Marquee Infinito 
+  (Move-se de 0% a -50% suavemente acelerada por hardware GPU)
+*/
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
