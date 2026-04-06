@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mlcpoficial.com.br/sitemap.xml

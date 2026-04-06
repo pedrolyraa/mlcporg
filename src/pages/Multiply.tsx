@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { Globe, MapPin, Send } from 'lucide-react';
 import React, { useState } from 'react';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function Multiply() {
+  usePageTitle('Leve o MLCP');
   const [formData, setFormData] = useState({
     nome: '',
     cidade: '',

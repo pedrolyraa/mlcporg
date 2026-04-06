@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Target, Users, Flame, Shield, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -20,6 +21,7 @@ const itemVariants = {
 };
 
 export default function Events() {
+  usePageTitle('Eventos');
   return (
     <div className="w-full bg-mlcp-black min-h-screen text-white overflow-hidden">
       

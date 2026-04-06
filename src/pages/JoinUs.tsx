@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
 import { Users, ShieldCheck, HeartHandshake, Compass, ArrowRight } from 'lucide-react';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function JoinUs() {
+  usePageTitle('Faça Parte');
   return (
     <div className="w-full">
       <section 

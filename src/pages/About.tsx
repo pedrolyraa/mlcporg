@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
 import { Target, Eye, Shield } from 'lucide-react';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function About() {
+  usePageTitle('O Movimento');
   return (
     <div className="w-full">
       {/* Header com Fundo de Imagem Escurecido */}

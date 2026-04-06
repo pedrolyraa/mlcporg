@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { ShieldAlert, Send } from 'lucide-react';
 import React, { useState } from 'react';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function SOS() {
+  usePageTitle('SOS Homem');
   const [formData, setFormData] = useState({
     nome: '',
     cidade: '',

@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
 import { Play, Quote } from 'lucide-react';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function Testimonials() {
+  usePageTitle('Testemunhos');
   const testimonials = [
     {
       name: "Rafael Cardoso",

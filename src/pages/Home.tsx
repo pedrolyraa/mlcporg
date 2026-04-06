@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import AnimatedBackground from '../components/ui/AnimatedBackground';
 import InfiniteMarquee from '../components/ui/InfiniteMarquee';
 import ContactForm from '../components/ui/ContactForm';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 // Animações Padronizadas para Staggered Reveal
 const containerVariants = {
@@ -33,6 +34,7 @@ const fadeUpVariants = {
 };
 
 export default function Home() {
+  usePageTitle(); // usa o título padrão: MLCP Oficial – Mãos Limpas e Coração Puro
   return (
     <div className="w-full">
       {/* 

@@ -9,7 +9,10 @@ const Events = React.lazy(() => import('./pages/Events'));
 const JoinUs = React.lazy(() => import('./pages/JoinUs'));
 const SOS = React.lazy(() => import('./pages/SOS'));
 const Multiply = React.lazy(() => import('./pages/Multiply'));
-const Testimonials = React.lazy(() => import('./pages/Testimonials'));function App() {
+const Testimonials = React.lazy(() => import('./pages/Testimonials'));
+const NotFound = React.lazy(() => import('./pages/NotFound'));
+
+function App() {
   return (
     <Router>
       <ScrollToTop />
@@ -23,6 +26,7 @@ const Testimonials = React.lazy(() => import('./pages/Testimonials'));function A
             <Route path="sos-homem" element={<SOS />} />
             <Route path="leve-o-mlcp" element={<Multiply />} />
             <Route path="testemunhos" element={<Testimonials />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </React.Suspense>
