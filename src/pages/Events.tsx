@@ -218,7 +218,7 @@ export default function Events() {
       >
         <div className="absolute inset-0 bg-black/30 z-10 pointer-events-none" />
         <img 
-          src="/images/eventosquatro.png" 
+          src="/images/andreexperience.avif" 
           alt="Imersão MLCP Experience" 
           className="w-full h-full object-cover object-center scale-105 hover:scale-100 transition-transform duration-[2s]"
         />

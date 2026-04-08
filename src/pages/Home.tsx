@@ -172,8 +172,8 @@ export default function Home() {
               className="relative aspect-[3/4] lg:aspect-square group overflow-hidden"
             >
               <img 
-                src="/images/andrecavaquinhomlcp.avif" 
-                alt="André Valadão MLCP" 
+                src="/images/andreculto.avif" 
+                alt="André Culto MLCP" 
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
