@@ -12,7 +12,7 @@ export default function Testimonials() {
     },
     {
       name: "Marcos Vinícius",
-      text: "Ser homem hoje é um desafio. O movimento me deu ferramentas práticas e bíblicas para lidar com a pressão do trabalho sem sacrificar o tempo e a qualidade com a minha esposa e filhos.",
+      text: "Ser homem hoje é um desafio. A comunidade me deu ferramentas práticas e bíblicas para lidar com a pressão do trabalho sem sacrificar o tempo e a qualidade com a minha esposa e filhos.",
       role: "Líder de Pequeno Grupo"
     },
     {

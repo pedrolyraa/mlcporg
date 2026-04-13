@@ -3,7 +3,7 @@ import { Target, Eye, Shield } from 'lucide-react';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function About() {
-  usePageTitle('O Movimento');
+  usePageTitle('A Comunidade');
   return (
     <div className="w-full">
       {/* Header com Fundo de Imagem Escurecido */}
@@ -18,7 +18,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tighter"
           >
-            O MOVIMENTO
+            A COMUNIDADE
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ export default function About() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Imagem do movimento */}
+            {/* Imagem da comunidade */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -42,14 +42,14 @@ export default function About() {
             >
               <img
                 src="/images/imagemnossahistoria.png"
-                alt="Imagem do Movimento MLCP"
+                alt="Imagem da Comunidade MLCP"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute top-0 left-0 w-32 h-32 border-t-4 border-l-4 border-mlcp-red -translate-y-4 -translate-x-4 z-20 hidden md:block" />
               <div className="absolute bottom-0 right-0 w-32 h-32 border-b-4 border-r-4 border-mlcp-red translate-y-4 translate-x-4 z-20 hidden md:block" />
             </motion.div>
 
-            {/* Texto Original do Movimento */}
+            {/* Texto Original da Comunidade */}
             <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export default function About() {
               >
                 <h2 className="text-sm font-black tracking-[0.2em] text-mlcp-red mb-4 uppercase">Quem Somos</h2>
                 <p className="text-2xl md:text-3xl lg:text-4xl font-black text-mlcp-black leading-snug tracking-tighter uppercase">
-                  O MLCP – Mãos Limpas e Coração Puro é um movimento de homens comprometidos em viver uma vida alinhada com os princípios de Deus.
+                  O MLCP – Mãos Limpas e Coração Puro é uma comunidade de homens comprometidos em viver uma vida alinhada com os princípios de Deus.
                 </p>
               </motion.div>
               <div className="w-16 h-1 bg-mlcp-red" />
@@ -89,7 +89,7 @@ export default function About() {
               Identidade e Propósito
             </h2>
             <p className="text-xl text-gray-500 font-light mb-8">
-              Os pilares que sustentam e direcionam o movimento MLCP.
+              Os pilares que sustentam e direcionam a comunidade MLCP.
             </p>
             <div className="w-24 h-1 bg-mlcp-red mx-auto rounded-full" />
           </motion.div>
@@ -140,7 +140,7 @@ export default function About() {
                 Nossa Visão
               </h3>
               <p className="relative z-10 text-white/70 leading-relaxed font-light">
-                Levar o movimento MLCP para todo o Brasil, levantando homens que sejam sacerdotes de suas casas e líderes inabaláveis em sua geração.
+                Levar a comunidade MLCP para todo o Brasil, levantando homens que sejam sacerdotes de suas casas e líderes inabaláveis em sua geração.
               </p>
             </motion.div>
 
@@ -232,7 +232,7 @@ export default function About() {
             >
               <img
                 src="/images/imagemnossahistoria.avif"
-                alt="História do Movimento MLCP"
+                alt="História da Comunidade MLCP"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </motion.div>
@@ -260,7 +260,7 @@ export default function About() {
               >
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-1 bg-mlcp-red" />
-                  <span className="text-sm font-black tracking-[0.2em] text-mlcp-red uppercase">A Música no Movimento</span>
+                  <span className="text-sm font-black tracking-[0.2em] text-mlcp-red uppercase">A Música na Comunidade</span>
                 </div>
                 <h2 className="text-5xl md:text-7xl font-black mb-2 tracking-tighter uppercase leading-[0.9]">
                   MLCP <br/>
@@ -285,7 +285,7 @@ export default function About() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <strong className="text-white">Não somos apenas uma banda.</strong> Somos homens chamados, unidos por um propósito maior. Hoje, a MLCP Worship tem sido instrumento de Deus, servindo e abençoando igrejas, eventos e movimentos, levando uma atmosfera de fé, entrega e transformação.
+                  <strong className="text-white">Não somos apenas uma banda.</strong> Somos homens chamados, unidos por um propósito maior. Hoje, a MLCP Worship tem sido instrumento de Deus, servindo e abençoando igrejas, eventos e comunidades, levando uma atmosfera de fé, entrega e transformação.
                 </motion.p>
                 
                 <motion.p

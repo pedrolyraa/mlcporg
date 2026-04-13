@@ -24,14 +24,14 @@ export default function Footer() {
               <a href="mailto:barboanba@gmail.com" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-mlcp-red transition-colors">
                 <Mail size={20} />
               </a>
-              <a href="https://wa.me/5519991695856?text=Ol%C3%A1%21%20Gostaria%20de%20entrar%20em%20contato%20com%20o%20movimento%20MLCP." target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-mlcp-red transition-colors">
+              <a href="https://wa.me/5519991695856?text=Ol%C3%A1%21%20Gostaria%20de%20entrar%20em%20contato%20com%20a%20comunidade%20MLCP." target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-mlcp-red transition-colors">
                 <Phone size={20} />
               </a>
             </div>
           </div>
           
           <div>
-            <h4 className="font-bold text-lg mb-6">O Movimento</h4>
+            <h4 className="font-bold text-lg mb-6">A Comunidade</h4>
             <ul className="space-y-3">
               <li><Link to="/o-movimento" className="text-mlcp-white/70 hover:text-mlcp-white transition-colors text-sm">Quem Somos</Link></li>
               <li><Link to="/eventos" className="text-mlcp-white/70 hover:text-mlcp-white transition-colors text-sm">Experience</Link></li>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-mlcp-white/50">
-          <p>&copy; {new Date().getFullYear()} Movimento MLCP. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Comunidade MLCP. Todos os direitos reservados.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-mlcp-white transition-colors">Termos de Uso</a>
             <a href="#" className="hover:text-mlcp-white transition-colors">Privacidade</a>

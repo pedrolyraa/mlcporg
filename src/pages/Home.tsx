@@ -138,7 +138,7 @@ export default function Home() {
                 <span className="text-mlcp-red">RESTAURA SUA CASA.</span>
               </motion.h2>
               <motion.p variants={itemVariants} className="text-xl text-gray-500 mb-10 leading-relaxed font-light">
-                O MLCP – Mãos Limpas e Coração Puro é um movimento de homens comprometidos em viver uma vida alinhada com os princípios de Deus. Nosso propósito é levantar liderança em famílias e gerações.
+                O MLCP – Mãos Limpas e Coração Puro é uma comunidade de homens comprometidos em viver uma vida alinhada com os princípios de Deus. Nosso propósito é levantar liderança em famílias e gerações.
               </motion.p>
               
               <ul className="space-y-6 mb-12">
@@ -342,7 +342,7 @@ export default function Home() {
                 <div className="text-black group-hover:text-mlcp-red transition-colors">
                   <Phone size={24} strokeWidth={1.5} />
                 </div>
-                <a href="https://wa.me/5519991695856?text=Ol%C3%A1%21%20Gostaria%20de%20entrar%20em%20contato%20com%20o%20movimento%20MLCP." target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:underline">(19) 99169-5856</a>
+                <a href="https://wa.me/5519991695856?text=Ol%C3%A1%21%20Gostaria%20de%20entrar%20em%20contato%20com%20a%20comunidade%20MLCP." target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:underline">(19) 99169-5856</a>
               </div>
 
               <div className="flex items-center gap-6 group">

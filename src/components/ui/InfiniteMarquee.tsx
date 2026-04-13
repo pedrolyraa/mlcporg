@@ -1,5 +1,5 @@
 export default function InfiniteMarquee() {
-  const text = "MOVIMENTO MLCP";
+  const text = "COMUNIDADE MLCP";
   const separator = "•";
 
   const renderItems = () => {

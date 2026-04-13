@@ -60,7 +60,7 @@ export default function JoinUs() {
 
           <div className="text-center">
             <a 
-              href="https://wa.me/5519991695856?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20participar%20do%20movimento%20MLCP."
+              href="https://wa.me/5519991695856?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20participar%20da%20comunidade%20MLCP."
               target="_blank" rel="noopener noreferrer"
               className="bg-mlcp-red text-white px-10 py-5 font-bold text-xl hover:bg-mlcp-black transition-colors inline-flex items-center gap-2 group"
             >
